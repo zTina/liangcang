@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="fullscreen"></div>
+	<div class="layerMark"></div>
+	<div id="main">
+		<form action="/i/yd_login?act=doMobile" method="get" id="loginForm" autocomplete="off">
+		  	<div id="verify_content" class="verify_content">
+                <div class="codeBtn">发送验证</div>
+                <input id="verify_code" name="verify_code" value="" placeholder="图形验证码" class="codeimg">
+                <div class="picBtn">
+               		<img id="pic_captcha" src="">
+               		<div class="changPic">点击图片换一张</div>
+                </div> 
+                <div id="oksend" class="oksend">确定</div>
+            </div>
+            <table class="logTable">
+		  		<tbody>
+		  			<tr valign="center" align="center">
+			  			<td colspan="2" height="150">
+			  				<a href="##">
+			  					<img src="http://www.iliangcang.com/images/nlicon.png" class="logo">
+			  				</a>
+			  			</td>
+		  			</tr>
+		  			<tr valign="center" align="center">
+		  				<td colspan="2" height="36">
+		  					<div>
+								<input id="mobile" class="mobile" name="mobile" value="" placeholder="输入手机号">
+		  					</div>
+		  				</td>
+		  			</tr>
+                    <tr valign="center">
+                    
+                    </tr>
+
+		  			<tr valign="center" align="center" height="36">
+			  			<td colspan="2">
+			  				<div class="yz">
+								<input id="code" class="code" name="code" value="" placeholder="输入验证码">
+								<div id="scode" class="scode">获取验证码</div>
+							</div>
+			  			</td>
+		  			</tr>
+
+					<tr valign="center">
+						<td colspan="2" class="loginCheck">
+							<input name="isauto" value="1" checked="checked" type="checkbox" class="checkBox">
+								<span>自动登录</span>
+						</td>
+					</tr>
+
+		  			<tr valign="center" align="center">
+		  				<td colspan="2" class="lB">
+		  					<input value="登录" class="loginBtn" type="submit">
+		  				</td>
+		  			</tr>
+					<tr valign="center" align="center">
+						<td colspan="2">
+							<a href="##" class="moreLogin">更多登录方式 &gt;</a>
+						</td>
+					</tr>
+		  		</tbody>
+		  	</table>
+		</form>
+	</div>
+</body>
+</html>

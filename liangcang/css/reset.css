@@ -1,0 +1,20 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,span{ margin:0; padding:0; }
+
+fieldset, c{ border:none; }
+
+img{display: block;}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; }
+
+body { color:#333; font:12px 'Hiragino Sans GB','¶¬ÇàºÚÌå','Hiragino Kaku Gothic ProN','Microsoft Yahei' ,'Simsun','Arial', 'Helvetica', 'sans-serif'; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;line-height: 1.428;}
+
+a { color:#878787; text-decoration:none; }
+
+/* a:visited { color:#666; }
+
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; } */
+
+.clearfix::after{content:"";overflow: hidden;height:0;clear: both;visibility:hidden;display:block;}
+

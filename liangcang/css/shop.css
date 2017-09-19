@@ -1,0 +1,44 @@
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 0;
+}
+.osm-tle{
+	height: 47px;
+	margin: 40px 0;
+	position: relative;
+	background-position: center -532px;
+	background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+	background-repeat: no-repeat;
+}
+.osm-tle a{
+	display: block;
+	width: 188px;
+	height: 40px;
+	background-position: 0 -739px;
+	background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+	background-repeat: no-repeat;
+}
+#actionContainer{
+	width: 1000px;
+	height: 475px;
+	overflow: hidden;
+	position: relative;
+}
+#actionContainer ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+#actionContainer ul li.v2{
+	display: block;
+	width: 1000px;
+	height: 475px;
+	background: #fff;
+	float: left;
+}
+#actionContainer ul li.v2 a{
+	width: 1000px;
+	height: 475px;
+}

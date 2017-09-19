@@ -1,0 +1,924 @@
+/* header */
+#header{
+	width: 100%;
+	letter-spacing: 1px;
+	font-family: 'Hiragino Sans GB','microsoft yahei' ,'Arial';
+	z-index: 9990;
+	position: static;
+	top: 0;
+	left: 0;
+}
+.header_top{
+	width: 100%;
+	min-width: 1000px;
+	height: 56px;
+	background: #25292e;
+	line-height: 56px;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	margin: 9px 0;
+	width: 95px;
+	height: 38px;
+	float: left;
+}
+.wrap .logo a{
+	display: block;
+	background-color: #25292e;
+	width: 95px;
+	height: 38px;
+	background: url('http://imgs-qn.iliangcang.com/images/default/icon.png?v1503') no-repeat;
+}
+.nav{
+	height: 56px;
+	position: relative;
+	z-index: 10;
+	float: right;
+}
+.header_top ul li{
+	font-size: 12px;
+	float: left;
+	height: 56px;
+	line-height: 56px;
+}
+.header_top .login_btn .loginBtn{
+	margin-right: 4px;
+	color: #ccc;
+	padding: 0;
+	display: inline-block;
+}
+.header_top ul li > a{
+	display: inline-block;
+	height: 56px;
+	line-height: 56px;
+	color: #666;
+	padding: 0 15px;
+	letter-spacing: 1.1px;
+}
+.header_top ul li.line{
+	width: 1px;
+	height: 8px;
+	margin-top: 25px;
+	background: #525961;
+}
+.shade{
+	transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+}
+.header_top .wrap #nav .login_btn #registerBtn{
+	padding-left: 0;
+	color: #ccc;
+}
+.cart{
+	position: absolute;
+	top: 55px;
+	right: 0;
+	background: #292f34;
+	z-index: 1000;
+	width: 320px;
+	letter-spacing: 1px;
+}
+.shop{
+	color: #9d9d9d;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 20px;
+	font-size: 13px;
+	text-align: center;
+	overflow: hidden;
+}
+.shop a{
+	color: #ccc;
+	cursor: text;
+}
+.cart_list{
+	padding: 0;
+	width: 320px;
+	background: none;
+}
+.add_shop{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #7dbfde;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.posr{
+	position: relative;
+}
+.user_m{
+	position: absolute;
+	background: #292f34;
+	z-index: 1000;
+	left: auto;
+	right: -69px;
+	_right: 83px;
+	top: 55px;
+	width: 190px;
+}
+.posr .user_m .msg_link{
+	display: block;
+	width: 160px;
+	height: 44px;
+	padding: 0 15px;
+	line-height: 44px;
+	background: #292f34;
+	cursor: pointer;
+}
+.user_m .msg_link span{
+	display: inline-block;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	padding: 0;
+	border-bottom: 1px solid #3f4449;
+	color: #ccc;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	position: relative;
+}
+.msg small{
+	position: absolute;
+	right: 0;
+	top: 1px;
+}
+#nav .add a{
+	padding-right: 0;
+}
+.hide{
+	display: none;
+}
+/* 二级导航 */
+.header_Menu{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 9;
+	height: 45px;
+	border-bottom: 4px solid #ededed;
+	background: #fff;
+}
+.header_subnav{
+	position: relative;
+	z-index: 8;
+}
+.header_Menu ul{
+	width: 734px;
+	height: 49px;
+}
+.fl{
+	float: left;
+}
+.search{
+	height: 49px;
+	width: 260px;
+	line-height: 45px;
+}
+.fr{
+	float: right;
+}
+.header_Menu ul li{
+	float: left;
+	width: 164px;
+	height: 45px;
+	line-height: 46px;
+	cursor: pointer;
+}
+.header_Menu ul li.homepage,
+.header_Menu ul li.homepage a{
+	width: 118px;
+	text-align: left;
+}
+.header_Menu ul li.superman,
+.header_Menu ul li.superman a{
+	width: 121px;
+}
+.header_Menu ul li > a{
+	display: block;
+	width: 121px;
+	height: 45px;
+	line-height: 46px;
+	color: #333;
+	font-size: 15px;
+	border-bottom:4px solid #ededed;
+	text-align: center;
+}
+.clr{
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.search_input_wrap{
+	position: relative;
+	height: 49px;
+	width: 260px;
+	overflow: hidden;
+}
+.search s{
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 0;
+	width: 46px;
+	height: 40px;
+	z-index: 6;
+	background: #fff;
+}
+.search_icon{
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 954px;
+	width: 33px;
+	height: 40px;
+	z-index: 9;
+	background-position: -167px -145px;
+	background-color: #fff;
+	background-image:url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+	background-repeat: no-repeat;
+}
+.search_input{
+	position: relative;
+	_top: 16px;
+	left: 280px;
+	width: 260px;
+	border-bottom: 4px solid #25292e;
+	background: transparent;
+	text-align: left;
+	height: 45px;
+	overflow: hidden;
+	font-family: 'Hiragino Sans GB','microsoft yahei' ,'Arial';
+}
+.search_input input[type="text"]{
+	position: relative;
+	top: 3px;
+	left: 4px;
+	width: 188px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 4px;
+	border: 0;
+	resize: none;
+	outline: none;
+}
+input{
+	font-family: 'Hiragino Sans GB','冬青黑体','Hiragino Kaku Gothic ProN','Microsoft Yahei' ,'Simsun','Arial', 'Helvetica', 'sans-serif';
+}
+/* main */
+#main{
+	width: 1000px;
+	margin: 0 auto;
+}
+#actionContainer{
+	width: 1000px;
+	height: 475px;
+	overflow: hidden;
+	position: relative;
+	margin: 23px 0 0 0;
+}
+.bigarea{
+	width: 130px;
+	height: 470px;
+	position: absolute;
+	z-index: 1;
+}
+.leftArea{
+	left: 0;
+}
+.rightArea{
+	right: 0;
+}
+.jcarousel-item{
+	position: absolute;
+	left: 1000px;
+	top: 0;
+}
+.jcarousel-item img{
+	width: 1000px;
+	height: 475px;
+}
+.jcarousel-first{
+	left: 0;
+	z-index: 1;
+}
+.jcarousel-prev{
+	display: block;
+	opacity: 1;
+	background: url("http://imgs-qn.iliangcang.com/images/default/normal_right.png") 0 0 no-repeat;
+	top: 50%;
+	margin-top: -25px;
+	left: 32px;
+	z-index: 10;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+
+}
+.jcarousel-next{
+	display: block;
+	opacity: 1;
+	background: url("http://imgs-qn.iliangcang.com/images/default/normal_left.png") 0 0 no-repeat;
+	top: 50%;
+	margin-top: -25px;
+	right: 32px;
+	z-index: 10;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+#actionOpt{
+	width: 1000px;
+	height: 18px;
+	padding: 7px 0;
+	border-bottom: none;
+	font-size: 0px;
+	text-align: center;
+	margin-top: 3px;
+}
+.v2{
+	width: 20px;
+	height: 4px;
+	background: #e8e8e8;
+	font-size: 0px;
+	display: inline-block;
+	margin: 0px 3px;
+}
+.active{
+	background: #45494d;
+}
+.hAdv02{
+	width: 1000px;
+	height: 403px;
+	margin-top:12px;
+	position: relative; 
+}
+.item1{
+	width: 317px;
+	height: 190px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.item2{
+	width: 318px;
+	height: 403px;
+	position: absolute;
+	top: 0;
+	left:340px;
+}
+.item3{
+	width: 317px;
+	height: 190px;
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.item4{
+	width: 317px;
+	height: 190px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+.item5{
+	width: 317px;
+	height: 190px;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+.hAdv02 img{
+	width: 100%;
+	height: 100%;
+}
+.hGCtle{
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	color: #333;
+	width: 100%;
+	margin: 36px 0 20px 0;
+}
+#main .sty_3 {
+    height: auto;
+    width: 1000px;
+}
+#main .shopListCon {
+    height: 490px;
+    width: 1000px;
+    float: left;
+    margin: 10px 0px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+.item{
+	width: 316px;
+	height: 366px;
+	margin: 0 0 30px 30px;
+	display: block;
+	float: left;
+	z-index: 10;
+}
+.first{
+	margin-left: 0;
+	clear: left;
+}
+.imgCon{
+	height: 316px;
+	width: 100%;
+	position: relative;
+}
+.bar{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+}
+.optCon{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 6px;
+	right: 3px;
+}
+.imgCon img{
+	width: 100%;
+	height: 100%;
+}
+
+.shopListCon .item .imgCon .goodsInfo{
+	width: 205px;
+	height: 205px;
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	background: url("http://imgs-qn.iliangcang.com/images/default/shadow_blk1.png");
+	z-index: 100;
+	display: block;
+}
+.sty_3 .item .imgCon .goodsInfo{
+	width: 286px;
+	height: 286px;
+}
+#main .shopListCon .item .imgCon .goodsInfo .money {
+    color: #0c6eba;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 14px;
+}
+
+#main .sty_3 .item .imgCon .goodsInfo .money {
+    text-align: left;
+    width: 97%;
+    margin-top: 4px;
+}
+#main .shopListCon .item .imgCon .goodsInfo p {
+    margin: 0px auto;
+    margin-top: 0px;
+    text-align: center;
+    color: #fff;
+    width: 85%;
+    height: 25px;
+    line-height: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#main .shopListCon .item .imgCon .goodsInfo .tle {
+    font-size: 14px;
+    margin-top: 14px;
+}
+#main .sty_3 .item .imgCon .goodsInfo .tle {
+    margin-top: 80px;
+}
+#main .shopListCon .item .imgCon .goodsInfo p {
+    margin: 0px auto;
+    margin-top: 0px;
+    text-align: center;
+    color: #fff;
+    width: 85%;
+    height: 25px;
+    line-height: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-top: 12px;
+}
+#main .shopListCon .item .imgCon .goodsInfo .desc {
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 5px;
+    white-space: normal;
+    height: auto;
+}
+#main .shopListCon .item .imgCon .goodsInfo p {
+    margin: 0px auto;
+    margin-top: 0px;
+    text-align: center;
+    color: #fff;
+    width: 85%;
+    height: 25px;
+    line-height: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-top: 12px;
+}
+#main .shopListCon .item .bar {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+#main .shopListCon .item .bar .who {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 216px;
+    overflow: hidden;
+}
+#main .shopListCon .item .bar a {
+    display: block;
+    float: left;
+    height: 40px;
+    zoom: 1;
+    _display: inline;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+#main .shopListCon .item .bar .who img {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-position: -130px -584px;
+    padding: 0px 6px 6px 0px;
+}
+#main .shopListCon .item .bar .goodsFavCount {
+    float: right;
+    padding-right: 30px;
+    background: url("http://imgs-qn.iliangcang.com/images/default/heart_gray20_18.png") no-repeat right center;
+}
+#main .shopListCon .item .bar a {
+    display: block;
+    float: left;
+    height: 40px;
+    zoom: 1;
+    _display: inline;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+#pagers{
+	text-align: center;
+}
+.osm-more{
+    height: 50px;
+    margin: 90px auto 0;
+    margin-top: 90px;
+    width: 148px;
+    clear: both;
+    text-align: center;
+    background-position: 0 -640px;
+    cursor: pointer;
+    display: block;
+    zoom: 1;
+    margin-top: 60px;
+    background-image: url('http://imgs-qn.iliangcang.com/images/default/icon.png?v1503');
+    background-repeat: no-repeat;
+}
+/* service */
+
+#service {
+    padding: 51px 0 78px;
+    width: 100%;
+    min-width: 1000px;
+    border-top: #ededed 1px solid;
+    background: #fbfdfe;
+    margin: 90px auto 0;
+}
+#service a {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 177px;
+    height: 16px;
+    background-position: 45px -417px;
+}
+.slogen {
+    padding-top: 42px;
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+}
+#service a .hand {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 27px;
+    height: 15px;
+    background-position: -173px -356px;
+    overflow: hidden;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+#service a{
+	background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+	background-repeat: no-repeat;
+}
+.slogen {
+    padding-top: 42px;
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+}
+.slogen dl, .slogen dl dd, .slogen dl dt {
+    float: left;
+    height: 60px;
+}
+.slogen dl.fore1 dt {
+    width: 56px;
+    background-position: 0 -355px;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+.slogen dl, .slogen dl dd, .slogen dl dt {
+    float: left;
+    height: 60px;
+}
+.slogen dl.fore1 dd {
+    width: 185px;
+}
+.slogen dl, .slogen dl dd, .slogen dl dt {
+    float: left;
+    height: 60px;
+}
+.slogen dd {
+    padding: 9px 0 0 20px;
+    letter-spacing: 1.2px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.slogen dd .chinesetop {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #737373;
+    text-align: left;
+}
+.slogen dd .english {
+    line-height: 22px;
+    color: #ccc;
+}
+.slogen dl.fore2 dt {
+    width: 45px;
+    background-position: -153px -217px;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+.slogen dl.fore2 dd {
+    width: 207px;
+}
+.slogen dl.fore3 dt {
+    width: 55px;
+    background-position: -57px -353px;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+.slogen dl.fore3 dd {
+    width: 177px;
+}
+.slogen dl.fore4 dt {
+    width: 57px;
+    background-position: -114px -353px;
+    background-repeat: no-repeat;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+}
+.slogen dl.fore4 dd {
+    display: block;
+    letter-spacing: 0px;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 138px;
+    overflow: hidden;
+}
+.slogen dl.fore4 dd .phonehm {
+    background-position: 0 -434px;
+    width: 117px;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+/* footer */
+#footer {
+    border-top: #25292e 1px solid;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1000px;
+    height: 192px;
+    background: #25292e;
+    color: #5c5c5c;
+    height: 222px;
+}
+
+.footLeft {
+    width: 800px;
+    padding-top: 40px;
+}
+
+.footRight {
+    width: 200px;
+    background: #25292e;
+}
+.text-r {
+    text-align: right;
+}
+.fr {
+    float: right;
+}
+.footLeft>a{
+	display: block;
+    height: 44px;
+    width: 196px;
+}  
+
+.friendly {
+    font-size: 12px;
+    color: #5c5c5c;
+    letter-spacing: 3px;
+    margin-top: 29px;
+}
+a .download {
+    position: relative;
+    padding: 0 0 0 60px;
+    width: 136px;
+    height: 44px;
+    background-position: -175px 0;
+    color: #5c5c5c;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    z-index: 1;
+    /* transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s; */
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+.download p {
+    line-height: 18px;
+}
+.client-down {
+    margin-top: 7px;
+}
+.friendly .toplink {
+    height: 14px;
+    margin-bottom: 9px;
+}
+.friendly p .first {
+    padding-left: 0;
+    background: none;
+}
+.friendly a {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 8px 0 10px;
+    padding-left: 10px;
+    color: #5c5c5c;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    background: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503") -197px -189px no-repeat;
+}
+.commun {
+    height: 30px;
+    padding: 45px 0 0;
+}
+.commun li {
+    float: right;
+    height: 30px;
+    margin-left: 27px;
+    position: relative;
+    *zoom: 1;
+}
+.commun li a.douban {
+    width: 18px;
+    background-position: -129px -25px;
+    overflow: hidden;
+    opacity: 0.2;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+.commun li a {
+    display: block;
+    height: 20px;
+    filter: alpha(opacity=20);
+    -moz-opacity: 0.2;
+    -khtml-opacity: 0.2;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.commun li a.sina {
+    width: 23px;
+    background-position: -150px -23px;
+    overflow: hidden;
+    opacity: 0.2;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+.commun li a.weixin {
+    width: 26px;
+    background-position: -100px -23px;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+}
+
+.download-code {
+
+    position: absolute;
+    width: 283px;
+    top: -188px;
+    left: 0;
+    display: blcok;
+    height: 187px;
+
+}
+.download-code dl {
+
+    float: left;
+    background-color: #fff;
+
+}
+.download-code dl.android {
+
+    padding-left: 20px;
+
+}
+.download-code dl.iPhone dt {
+
+    border-right: #d9d9d9 1px solid;
+    background-position: -99px -47px;
+    padding-right: 20px;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+
+}
+.download-code dt {
+
+    height: 95px;
+    width: 98px;
+
+}
+.download-code dd {
+    width: 98px;
+    height: 52px;
+    line-height: 52px;
+    color: #4d4d4d;
+    text-align: center;
+    letter-spacing: 0;
+    font-size: 13px;
+
+}
+.numLeFont{
+	letter-spacing: 2px;
+}
+.download-code dl.android {
+
+    padding-left: 20px;
+
+}
+.download-code dl.android dt {
+
+    background-position: 0 -47px;
+    background-image: url("http://imgs-qn.iliangcang.com/images/default/icon.png?v1503");
+    background-repeat: no-repeat;
+
+}

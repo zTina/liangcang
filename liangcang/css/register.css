@@ -1,0 +1,289 @@
+.fullscreen{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+	background-position: 50% 505;
+	background: no-repeat scroll;
+}
+.layerMark{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.4;
+}
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 0;
+	clear: both;
+}
+#uregForm{
+	width: 100%;
+	display: inline-block;
+	color: #333;
+}
+.bgInfo{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	height: 40px;
+	cursor: pointer;
+}
+.regTable{
+	width: 565px;
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	position: relative;
+	margin-top: 40px;
+}
+.logoLC{
+	position: relative;
+	left: -33px;
+	margin-bottom: -17px;
+}
+.regLabel{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	opacity: 0.9;
+	padding-right: 16px;
+}
+.regInpt{
+	background: url("http://imgs-qn.iliangcang.com/images/default/loginuserBg.png") no-repeat;
+	width: 30px;
+	height: 50px;
+	border: 0;
+	float: left;
+	line-height: 50px;
+	padding-left:20px;
+	font-family: "微软雅黑";
+	color: #fff;
+	opacity: 0.99;
+}
+.innerPro{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	opacity: 0.99;
+
+}
+.inputPH{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	opacity: 0.99;
+	padding-left: 20px;
+	position: absolute;
+	left: 96px;
+	margin-top: 15px;
+	font-family: "微软雅黑";
+}
+.regInptCode{
+	background: url("http://imgs-qn.iliangcang.com/images/default/vertif.png") no-repeat;
+	border: 0;
+	padding: 0;
+	height: 50px;
+	line-height: 50px;
+	width: 225px;
+	padding-left: 20px;
+}
+#authimg{
+	position: relative;
+	right: 0;
+}
+.nextVert{
+	position: relative;
+	left: -11px;
+	font-size: 12px;
+	color: #fff;
+}
+.phone{
+	padding-right: 6px;
+}
+#uregForm .regTable .codeInput {
+    width: 184px;
+    margin-left: 0px;
+    background: none;
+    border: 0;
+}
+#uregForm .regTable .codeInput .innerPro {
+    background-color: #cccccc;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    opacity: 0.99;
+    padding-left: 20px;
+    width: 164px;
+    height: 53px;
+}
+.mobile_button {
+    background-color: #ADCCE6;
+    width: 116px;
+    height: 54px;
+    color: #FFF;
+    line-height: 40px;
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    float: left;
+    border: 0 none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    width: 105px;
+}
+#uregForm .regTable .regInput{
+	background: url("http://imgs-qn.iliangcang.com/images/default/loginuserBg.png") no-repeat;
+	width: 300px;
+	height: 50px;
+	border: 0;
+	float: left;
+	line-height: 50px;
+	padding-left: 20px;
+	font-family: "微软雅黑";
+	color: #fff;
+	opacity: 0.99;
+}
+#uregForm .regTable .regInpt{
+	background: url("http://imgs-qn.iliangcang.com/images/default/loginuserBg.png") no-repeat;
+	width: 300px;
+	height: 50px;
+	border: 0;
+	float: left;
+	line-height: 50px;
+	padding-left: 20px;
+	font-family: "微软雅黑";
+	color: #fff;
+	opacity: 0.99;
+
+}
+#PhoneCodeDiv{
+	display: none;
+}
+#pwdInfo{
+	width: 127px;
+	height: 28px;
+	position: relative;
+	left: -11px;
+	top: 0;
+}
+#pwdInfo .content {
+    padding: 0;
+    width: 127px;
+    height: 12px;
+    background: url("http://imgs-qn.iliangcang.com/images/default/pwd_note_bg.png") no-repeat;
+}
+#pwdInfo .info {
+    width: 127px;
+    height: 16px;
+    font-size: 0px;
+    color: #4c4c4c;
+}
+#pwdInfo .info span {
+    font-size: 12px;
+    display: inline-block;
+    width: 41px;
+    text-align: center;
+}
+.passLeft {
+    position: relative;
+    left: -13px;
+}
+.passRight {
+    position: relative;
+    right: -15px;
+}
+.agreeLC {
+    position: relative;
+    left: -4px;
+    top: 3px;
+}
+.vertPos {
+    vertical-align: middle;
+}
+.agree{
+	padding-left: 6px;
+	color: #fff;
+}
+.agreeLink{
+	color: #0c79cc;
+}
+#uregForm .regTable .regBtn {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border: 0;
+    background: #25292e;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0;
+    position: relative;
+    left: -6px;
+    top: -9px;
+    *top: 0px;
+    margin-bottom: 10px;
+}
+.icon_QQ_36 {
+    background: url("http://imgs-qn.iliangcang.com/images/default/qqnormal.png") no-repeat;
+    margin-left: 5px;
+}
+.quikLoginIcon {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+.icon_sina_36 {
+    background: url("http://imgs-qn.iliangcang.com/images/default/xinlangnormal.png") no-repeat;
+}
+.icon_douban_36 {
+    background: url("http://imgs-qn.iliangcang.com/images/default/doubannormal.png") no-repeat;
+}
+icon_qqwb_36 {
+    background: url("http://imgs-qn.iliangcang.com/images/default/tengxunnormal.png") no-repeat;
+}
+.regLC {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: -12px;
+    right: 6px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffffff;
+}
+.regPos {
+    position: relative;
+    left: -160px;
+}
+.bgName {
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    margin-right: 20px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.log_regBody{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}

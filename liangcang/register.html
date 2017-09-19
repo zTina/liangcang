@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body class="log_regBody">
+	<div class="fullscreen"></div>
+	<div class="layerMark"></div>
+	<div id="main">
+		<form action="" method="post" id="uregForm" name="uregForm" autocomplete="off">
+		  	<table class="regTable">
+		  		<tbody>
+		  			<tr valign="center" align="center">
+		  				<td colspan="3" height="160">
+		  					<a href="/i/home/">
+		  						<img src="http://www.iliangcang.com/images/default/logo_icon.png" class="logoLC">
+		  					</a>
+		  				</td>
+		  			</tr>
+		  			<tr valign="middle" height="50">
+		  				<th class="regLabel" align="left">手机号</th>
+		  					<td width="270" align="left">
+		  						<input class="regInpt innerPro" id="mobile_phone" name="mobile_phone" autocomplete="off" value="" onchange="ShowAuthCode();" type="text">
+		  						<label class="inputPH" for="pwd"></label>
+		  					</td>
+		  					<td align="left"> </td>
+		  				</tr>
+		  				<tr id="authcodeDiv" valign="middle" height="50">
+		  					<th class="regLabel" align="left">验证码</th>
+		  					<td align="left">
+		  						<input class="regInptCode innerPro" name="authcode" id="authcode" maxlength="4" oninput="HideAuthCode(this)" onpropertychange="HideAuthCode(this)" type="text">
+		  						<img src="/i/authcode/4826/" id="authimg" align="absmiddle">
+		  					</td>
+		  					<td align="left"> 
+		  						<a href="##" onclick="getnewimg();" class="nextVert">看不清，换一张</a>
+		  					</td>
+		  				</tr>
+		  				<tr id="PhoneCodeDiv" valign="middle" height="50">
+		  					<th class="regLabel phone" align="left">手机验证码</th>
+		  					<td align="left"> 
+		  						<div class="codeInput">
+                            		<input name="chkPhoneCode" id="chkPhoneCode" class="innerPro" autocomplete="off" value="" type="text">
+                        		</div>
+                        
+                       			<input class="mobile_button" id="mobile_button" onclick="getMobileAuthCode('reg',this);" value="免费获取验证码" type="button">
+                        
+		  					</td>
+		  				</tr>
+		  				<tr valign="middle" height="50">
+		  					<th class="regLabel" align="left">创建密码</th>
+		  						<td width="" align="left">
+		  							<input class="regInpt innerPro" id="pwd" name="pwd" autocomplete="off" onkeyup="pwStrength(this.value);" type="password">
+		  							<label class="inputPH" for="pwd" >6－20位字符组成，区分大小写</label>
+		  						</td>
+		  						<td align="left"> 
+		  							<div id="pwdInfo">
+		  								<div class="content" id="pwdStrong"></div>
+		  								<div class="info">
+		  									<span class="passLeft">弱</span>
+		  									<span>中</span>
+		  									<span class="passRight">强</span>
+		  								</div>
+		  							</div>
+		  						</td>
+		  				</tr>
+		  				<tr valign="middle" height="50">
+		  					<th class="regLabel" align="left">密码确认</th>
+		  						<td width="" align="left">
+		  							<input class="regInpt innerPro" id="repwd" name="repwd" autocomplete="off" type="password">
+		  							<label class="inputPH" for="repwd" style="display: block;">确认密码</label>
+		  						</td>
+		  						<td align="left"> </td>
+		  				</tr>
+		  				<tr valign="center" height="50">
+		  					<th align="left"> </th>
+		  					<td> 
+		  						<div class="agreeLC">
+		  							<input checked="checked" id="ourtreaty" class="vertPos" type="checkbox">
+		  							<label for="ourtreaty" class="vertPos agree">同意</label>
+		  							<a href="http://www.iliangcang.com/i/our/service" class="vertPos agreeLink" target="_blank">&nbsp;良仓注册条款</a>
+		  						</div>	
+		  					</td>
+		  				</tr>
+		  				<tr valign="center" align="center">
+		  					<th align="left"> </th>
+		  						<td width="" align="right">
+									<input name="act" value="useradd" type="hidden">
+									<input name="sex" value="0" type="hidden">
+									<input name="invite_uid" value="0" type="hidden">
+		  							<input class="regBtn" value="立即注册" onclick="return regCheck();" type="button" align="absmiddle"> &nbsp;&nbsp;&nbsp;
+		  						</td>
+		  				</tr>
+		  				<tr valign="center" align="center">
+		  					<th align="left"> </th>
+		            		<td align="left">
+			            		<a href="##" class="quikLoginIcon icon_QQ_36" title="QQ"></a>
+			            		<a href="##" class="quikLoginIcon icon_sina_36" title="新浪微博"></a>
+			            		<a href="##" class="quikLoginIcon icon_douban_36" title="豆瓣"></a>
+			            		<a href="##" class="quikLoginIcon icon_qqwb_36" title="腾讯微博"></a>
+		            		</td>
+		            		<td align="right">
+		              			<a href="##" class="regLC regPos" id="regLC">登录良仓</a>
+		            		</td>
+		        		</tr>
+		  			</tbody>
+		  	</table>
+		</form>
+		<a class="bgInfo" href="http://www.iliangcang.com/i/brand/own/?id=60">
+	    	<div class="bgName">ferm LIVING</div>
+	    	<img src="http://imgs-qn.iliangcang.com/ware/brand/60.jpg" style="" width="40" height="40">
+    	</a>
+	</div>
+</body>
+</html>
